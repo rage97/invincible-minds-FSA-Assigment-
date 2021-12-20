@@ -1,0 +1,12 @@
+.Technologies-container {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.tech-grid {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 75px;
+    text-align: left;
+}

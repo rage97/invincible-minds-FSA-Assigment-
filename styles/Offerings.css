@@ -1,0 +1,17 @@
+.offerings-grid {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.offerings-grid :hover {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 35px;
+}

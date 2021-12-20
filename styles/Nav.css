@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    top: 0;
+    position: sticky;
+    border: 2px solid var(--secondary-color);
+    
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.nav-links ul li a:hover {
+    background-color: var(--secondary-color);
+    padding: 0.5em;
+    color: white;
+    
+}

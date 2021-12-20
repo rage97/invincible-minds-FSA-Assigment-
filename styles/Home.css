@@ -1,0 +1,39 @@
+.Home-Container {
+    height: 100vh;
+    background-image: url("../images/rubik-cube-5k-8r-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Home-Container h1 {
+    font-size: var(--heading-size);
+    padding: var(--padding);
+}
+
+.text-left {
+    color: white;
+}
+
+.text-right {
+    color: var(--secondary-color);
+}
+
+
+
+
+/* Media sizes here figure out later
+@media screen and (max-width:500px) {
+    .Home-Container{
+        background-size: contain;
+    }
+    nav {
+        display: none;
+    }
+    .text-left{
+        font-size: 20px;
+    }
+}
+ */

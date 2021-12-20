@@ -1,0 +1,25 @@
+.Vision-container{
+    padding: var(--padding);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.Vision-container h1 {   
+    padding-bottom: 50px;
+}
+
+.Vision-container p {
+    font-size: 50px;
+}
+ 
+.Vision-container ul li {
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+.vision {
+    text-align: center;
+}
